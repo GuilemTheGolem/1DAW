@@ -1,0 +1,35 @@
+package EjerciciosRepaso;
+
+import java.util.Scanner;
+
+public class Ej13 {
+	public static final String FIN = "FIN";
+	public static final String FIN1 = "fin";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		String acumulativo = "";
+		String frase;
+		
+		do {
+			
+		
+		System.out.println("Dime una frase");
+		String frase1 = scanner.nextLine();
+		 acumulativo = acumulativo + frase1;
+	
+		if(frase1 == FIN ) {
+		System.out.println("El programa ha terminado");
+		
+		}else if (frase1 == FIN1) {
+			System.out.println("El programa ha terminado");
+		}
+		}
+		
+		while( acumulativo == FIN);
+		
+scanner.close();
+	}
+
+}

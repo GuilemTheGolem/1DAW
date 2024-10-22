@@ -1,0 +1,26 @@
+package EjerciciosRepaso;
+
+import java.util.Scanner;
+
+public class Ej14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		String contraseña;
+		Integer cadena;
+		do {
+		System.out.println("Dime una contraseña");
+		contraseña = scanner.nextLine();
+		
+		cadena = contraseña.length();
+		if(cadena <= 8) {
+			System.out.println("Dime de nuevo la contraseña");
+		}
+	
+		}
+		while(contraseña);
+	}
+
+}

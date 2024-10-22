@@ -1,0 +1,37 @@
+package EjerciciosRepaso;
+
+import java.util.Scanner;
+
+public class Ej16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);	
+		
+		String palabra = "";
+		
+		System.out.println("Dime una palabra");
+		palabra = scanner.nextLine();
+		
+		Integer longitud = palabra.length();
+		Integer acumulador = 0;
+		Integer posicion = 0;
+		String letra = palabra.substring(posicion,posicion + 1);
+		
+		do {
+			if(acumulador == 0) {
+		System.out.println(letra);
+			}else { 
+	String letra2 = palabra .substring(posicion,posicion + 1);
+			System.out.println(letra2);
+			}
+			posicion++;
+			acumulador++;
+		
+		/*palabra = palabra.substring(0);
+		System.out.println(palabra);*/
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,28 @@
+package EjerciciosRepaso;
+
+import java.util.Scanner;
+
+public class Ej13 {
+	public static final String FIN = "FIN";
+	public static final String fin = "fin"
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		String frase;
+		do {
+			
+		System.out.println("Dime una frase");
+		String frase1 = scanner.nextLine();
+		
+		
+		
+		
+		}
+		
+		while(frase == FIN);
+		
+		
+
+	}
+
+}
