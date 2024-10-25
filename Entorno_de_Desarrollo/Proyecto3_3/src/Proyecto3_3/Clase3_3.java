@@ -8,7 +8,7 @@ public class Clase3_3 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Practica3_3 " + "Guillermo " );
+		System.out.println("Canela En Rama" );
 
 	}
 
